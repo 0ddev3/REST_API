@@ -1,7 +1,7 @@
 # Student Records REST API
 
 
-This project is a RESTful API that manages student records stored in a SQLite database.It lets you add students, update them, delete them, and look them up. There are also 2 filiters such as searching by GPA or major.
+This project is a RESTful API that manages student records stored in a SQLite database. It lets you add students, update them, delete them, and look them up. There are 2 additional filters such as searching by GPA or major.
 
 ---
 
