@@ -5,12 +5,10 @@ from routes import router
 app = FastAPI(title="Student Management API")
 app.include_router(router)
 
-
 @app.on_event("startup")
 def startup():
-    init_database()
-    print("Database initialized!")
-
+     init_database()
+     print("Database initialized!")
 
 @app.get("/")
 def root():
